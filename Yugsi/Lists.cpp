@@ -30,6 +30,5 @@ int main() {
     } else {
         cout << "La lista no está vacía" << endl;
     }
-
     return 0;
 }
