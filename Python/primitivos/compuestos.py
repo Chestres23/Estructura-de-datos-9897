@@ -41,6 +41,7 @@ print(lista2)
 #TUPLA
 
 tupla = ("Quito","Guayaquil","Cuenca","Quito")
+
 print(type(tupla)) #No se pueden modificar
 
 # tupla.append("Machala")
@@ -74,7 +75,33 @@ print(conjunto)
 
 #DICCIONARIOS
 
-cliente001 = {}
+cliente001 = {
+    "nombre":"Christian",
+    "apellido":"Vasco",
+    "telefono":"878979879",
+    "Correo":"ewwffwerfewf"
+    }
+
+print(cliente001["nombre"])
+print(cliente001["apellido"])
+
+print(cliente001.get("telefono"))
+cliente001["nombre"] = "Juan"
+print(cliente001)
+print(len(cliente001))
+
+#Eliminar elementos de un diccionario
+cliente001.popitem()
+print(cliente001)
+
+cliente001.pop("apellido")
+print(cliente001)
+
+del cliente001["telefono"]
+print(cliente001)
+
+
+
 
 
 
