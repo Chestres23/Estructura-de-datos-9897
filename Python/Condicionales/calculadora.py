@@ -34,3 +34,5 @@ if primero == "Cadena" or segundo == "Cadena":
 else:
     print (primero + segundo )
 
+# Agregando mas funcionalidades
+
