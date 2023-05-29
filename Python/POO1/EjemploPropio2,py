@@ -1,0 +1,14 @@
+class Familia:
+    def __init__(self, parentesco):
+        self.parentesco = parentesco
+    
+    def __str__(self):
+        return(f"Yo soy el {self.parentesco} de Christian")
+    
+class Abuelos(Familia):
+
+    def __init__(self, parentesco):
+        super().__init__(parentesco)
+
+parentesco1 = Abuelos("Abuelo Materno")
+print(parentesco1)
